@@ -1,0 +1,76 @@
+.error_msg {
+  max-width: 23.125rem;
+  padding: 0.93rem;
+  margin: 0;
+  font-size: 0.8rem;
+  background-color: #f34646;
+  color: white;
+  border-radius: 5px;
+  text-align: center;
+}
+header {
+  padding-top: 6rem;
+  background-image: linear-gradient(
+      to bottom right,
+      rgba(235, 150, 76, 0.169),
+      rgb(231, 126, 35)
+    ),
+    url("../../img/anthony-tan-PULWFiQi2aU-unsplash.jpg");
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  min-width: 100vw;
+}
+
+nav {
+  background-color: rgba(231, 126, 35, 0.35);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  /* Because we want header to be sticky later */
+
+  height: 4.5rem;
+  box-shadow: 2px 2px 5px rgb(231, 126, 35);
+}
+nav p {
+  margin-left: 1rem;
+  transform: translate(0, 15%);
+}
+.btn,
+.btn:link,
+.btn:visited {
+  display: inline-block;
+  text-decoration: none;
+  font-weight: 600;
+  padding: 0.8rem 1.6rem;
+  border-radius: 9px;
+
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
+  background-color: rgba(235, 150, 76, 0.467);
+  color: #fff;
+  margin-right: 2rem;
+
+  transition: all 0.3s;
+}
+/* 
+.btn:hover,
+.btn:active {
+  
+} */
+
+.backdropfilter {
+  backdrop-filter: blur(6px);
+}
+
+.icon {
+  background: url("../../img/logo1.png");
+  height: 5rem;
+  width: 8rem;
+  display: block;
+  background-size: cover;
+  background-position: center;
+  margin-left: 3rem;
+}
