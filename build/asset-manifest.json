@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/static/css/main.2b4daa61.css",
+    "main.js": "/static/js/main.4dae36ae.js",
+    "static/media/anthony-tan-PULWFiQi2aU-unsplash.jpg": "/static/media/anthony-tan-PULWFiQi2aU-unsplash.47641bd3fbe1648693b2.jpg",
+    "static/media/logo1.png": "/static/media/logo1.4336c7743b9a658b8f07.png",
+    "index.html": "/index.html",
+    "main.2b4daa61.css.map": "/static/css/main.2b4daa61.css.map",
+    "main.4dae36ae.js.map": "/static/js/main.4dae36ae.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2b4daa61.css",
+    "static/js/main.4dae36ae.js"
+  ]
+}
