@@ -54,27 +54,34 @@ const Signup = () => {
 
   const subscribe = () => {
     const messaging = getMessaging();
-
-    getToken(messaging, {
-      vapidKey:
-        "BL2vZrAv6w3tWQZOAD5MGct91dBYInutTB-zEMTymURIowD_x9tWVKVE3AwcvdLVDAMiwVJoQToKWNMgeBsMIZo",
-    })
-      .then((currentToken) => {
-        if (currentToken) {
-          const tokeninput = document.getElementById("showToken");
-          tokeninput.value = currentToken;
-          data.fbtoken = currentToken;
-        } else {
-          // Show permission request UI
-          console.log(
-            "No registration token available. Request permission to generate one."
-          );
-          // ...
+    Notification.requestPermission()
+      .then((permission) => {
+        if (permission === "granted") {
+          getToken(messaging, {
+            vapidKey:
+              "BL2vZrAv6w3tWQZOAD5MGct91dBYInutTB-zEMTymURIowD_x9tWVKVE3AwcvdLVDAMiwVJoQToKWNMgeBsMIZo",
+          })
+            .then((currentToken) => {
+              if (currentToken) {
+                const tokeninput = document.getElementById("showToken");
+                tokeninput.value = currentToken;
+                data.fbtoken = currentToken;
+              } else {
+                // Show permission request UI
+                console.log(
+                  "No registration token available. Request permission to generate one."
+                );
+                // ...
+              }
+            })
+            .catch((err) => {
+              console.log("An error occurred while retrieving token. ", err);
+              // ...
+            });
         }
       })
-      .catch((err) => {
-        console.log("An error occurred while retrieving token. ", err);
-        // ...
+      .catch((e) => {
+        console.log(e);
       });
   };
 
