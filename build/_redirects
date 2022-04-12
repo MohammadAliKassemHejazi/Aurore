@@ -1,6 +1,4 @@
-
-
 [[redirects]]
-from="*/"
-to="index.html"
-status=200
+from="/login"
+to="/"
+status=404
