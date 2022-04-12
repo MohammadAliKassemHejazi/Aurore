@@ -19,7 +19,7 @@ const Login = () => {
 
       localStorage.setItem("token", res.data);
       localStorage.setItem("username", res.body.firstName);
-      localStorage.setItem("Fbtoken", res.body.fbtoken);
+
       window.location = "/";
     } catch (error) {
       if (

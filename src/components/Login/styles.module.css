@@ -12,10 +12,10 @@ header {
   padding-top: 6rem;
   background-image: linear-gradient(
       to bottom right,
-      rgba(235, 150, 76, 0.169),
-      rgb(231, 126, 35)
+      rgba(235, 150, 76, 0.285),
+      rgba(231, 127, 35, 0.821)
     ),
-    url("../../img/anthony-tan-PULWFiQi2aU-unsplash.jpg");
+    url("../../img/Aurorr.png");
   background-size: cover;
   background-position: center;
   min-height: 100vh;
@@ -23,7 +23,7 @@ header {
 }
 
 nav {
-  background-color: rgba(231, 126, 35, 0.35);
+  background-color: rgba(140, 78, 25, 0.35);
   display: flex;
   justify-content: space-between;
   align-items: center;

@@ -9,6 +9,7 @@ const Main = () => {
 
   const handleLogout = () => {
     localStorage.removeItem("token");
+    localStorage.removeItem("username");
     window.location.reload();
   };
 
@@ -68,11 +69,7 @@ const Main = () => {
         body: msg,
       },
       data: {
-        click_action: "https://google.com",
-        customData: "valueOfCutomData",
-        image: "Some valid url",
-        icon: "/favicon.ico",
-        url: "https://google.com",
+        icon: "../src/img/favicon.ico",
       },
     };
 
