@@ -69,7 +69,7 @@ const Main = () => {
         body: msg,
       },
       data: {
-        icon: "../src/img/favicon.ico",
+        icon: "../build/favicon.ico",
       },
     };
 

@@ -21,7 +21,14 @@ header {
   min-height: 100vh;
   min-width: 100vw;
 }
-
+header div div p {
+  border-radius: 8px;
+}
+.style {
+  background-color: rgba(235, 150, 76, 0.285);
+  border: 1px solid;
+  border-radius: 5px;
+}
 nav {
   background-color: rgba(140, 78, 25, 0.35);
   display: flex;

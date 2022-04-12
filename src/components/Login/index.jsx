@@ -45,15 +45,23 @@ const Login = () => {
 
       <header className="home-section ">
         <div>
-          <div className="home-inner container">
+          <div className="home-inner container text-center ">
             <div className="row pt-5">
-              <div className="col-lg-8 d-none d-lg-block text-center ">
-                <p className="display-4 fst-italic fw-normal">
+              <div className="col-lg-12 d-none d-lg-block text-center ">
+                <p
+                  className="display-4 fst-italic fw-normal "
+                  style={{
+                    background: "rgba(235, 150, 76, 0.5)",
+                    border: "1px solid",
+                  }}
+                >
                   Accueillir et accompagner vers l’autonomie les personnes en
                   <strong> situation de précarité</strong> ou d’exclusion via
                   l’hébergement, les soins et l’insertion.
                 </p>
               </div>
+            </div>
+            <div className="row justify-content-center">
               <div className="col-lg-3 ps-2 ">
                 <div className={styles.backdropfilter}>
                   <div className="card bg-transparent text-center card-form">

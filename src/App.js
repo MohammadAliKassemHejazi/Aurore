@@ -10,6 +10,7 @@ function App() {
   const firesbase = app;
   const user = localStorage.getItem("token");
   const messaging = getMessaging();
+
   onMessage(messaging, (payload) => {
     console.log("Message received. ", payload);
     const notificationOption = {
