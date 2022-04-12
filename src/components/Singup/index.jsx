@@ -53,7 +53,7 @@ const Signup = () => {
   };
 
   const subscribe = () => {
-    console.log(permission);
+    const messaging = getMessaging();
 
     getToken(messaging, {
       vapidKey:
