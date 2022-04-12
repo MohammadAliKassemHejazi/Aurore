@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.7397f22d.css",
-    "main.js": "/static/js/main.ae6fe321.js",
-    "static/media/Aurorr.png": "/static/media/Aurorr.de10c811836f11a9e243.png",
+    "main.css": "/static/css/main.c5e86aa0.css",
+    "main.js": "/static/js/main.dcd8ffe7.js",
+    "static/media/Aurorr.jpg": "/static/media/Aurorr.dd24d48063d8c1fe2ac6.jpg",
     "static/media/logo1.png": "/static/media/logo1.4336c7743b9a658b8f07.png",
     "index.html": "/index.html",
-    "main.7397f22d.css.map": "/static/css/main.7397f22d.css.map",
-    "main.ae6fe321.js.map": "/static/js/main.ae6fe321.js.map"
+    "main.c5e86aa0.css.map": "/static/css/main.c5e86aa0.css.map",
+    "main.dcd8ffe7.js.map": "/static/js/main.dcd8ffe7.js.map"
   },
   "entrypoints": [
-    "static/css/main.7397f22d.css",
-    "static/js/main.ae6fe321.js"
+    "static/css/main.c5e86aa0.css",
+    "static/js/main.dcd8ffe7.js"
   ]
 }
